@@ -1,0 +1,4 @@
+CREATE TABLE models (
+id SERIAL PRIMARY KEY,
+model BYTEA NOT NULL
+);
