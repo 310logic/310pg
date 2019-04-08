@@ -10,7 +10,7 @@
 
 or mapping port
 
-```docker run --name container_name [-d -e POSTGRES_USER=posegres] -e POSTGRES_PASSWORD=Password1 -p 5432:5432 --restart=always postgres```
+```docker run --name container_name [-d -e POSTGRES_USER=posegres] -e POSTGRES_PASSWORD=Password1 -p 5432:5432 --restart=always kathlon/postgresql-plpython3```
 
 ```docker ps```
 
